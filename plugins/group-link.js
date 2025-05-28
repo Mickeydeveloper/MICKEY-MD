@@ -8,7 +8,7 @@ const path = require('path');
 
 cmd({
     pattern: "invite",
-    alias: ["glink", "grouplink"],
+    alias: ["link", "grouplink"],
     desc: "Get group invite link.",
     category: "group", // Already group
     filename: __filename,
