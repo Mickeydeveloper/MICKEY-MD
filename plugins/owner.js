@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/g3sq1a.png' }, // Image URL from your request
-            caption: `╭━━〔 *𝙼𝙸𝙲𝙺𝙴𝚈-𝙼𝙳* 〕━━┈⊷
+            image: { url: 'https://i.ibb.co/4ZSYvPTq/lordali.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *TOHID_MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,24 +38,31 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈╰─┬──────────┈⊷
 ┃◈╭─┴────────────●●►
-
+┃◈├ ╔═╦═╗───╔══╗╔╗╔╗╔╗
+┃◈├ ║║║║╠╦╦═╩╗╔╩╣╚╬╬╝║
+┃◈├ ║║║║║╔╩══╣║╬║║║║╬║
+┃◈├ ╚╩═╩╩╝───╚╩═╩╩╩╩═╝
+┃◈╰─────────────●●►
 ╰──────────────┈⊷
-> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝓜𝓘𝓒𝓚𝓔𝓨-𝓜𝓓`, // Display the owner's details
+> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚃𝙾𝙷𝙸𝙳_𝙼𝙳`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '12036331487561459@newsletter',
-                    newsletterName: '𝓜𝓘𝓒𝓚𝓔𝓨-𝓜𝓓',
+                    newsletterJid: '120363207624903731@newsletter',
+                    newsletterName: '𝐓𝐎𝐇𝐈𝐃 𝐓𝐄𝐂𝐇 🤖',
                     serverMessageId: 143
                 }            
             }
         }, { quoted: mek });
 
         // Send audio as per your request
-       ,
-            p;
+        await conn.sendMessage(from, {
+            audio: { url: 'https://github.com/Tohidkhan6332/TOHID-DATA/raw/refs/heads/main/autovoice/menunew.m4a' }, // Audio URL
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
 
     } catch (error) {
         console.error(error);
