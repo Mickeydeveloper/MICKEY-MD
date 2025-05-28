@@ -72,7 +72,7 @@ cmd({
                 `*├▢ COUNT : ${warningCount}*\n` +
                 `*├▢ REASON : LINK SENDING*\n` +
                 `*├▢ WARN LIMIT : 3*\n` +
-                `*╰─────⬡ *TOHID_MD* ⬡────*`,
+                `*╰─────⬡ *MICKEY-MD* ⬡────*`,
           mentions: [sender]
         });
       } else {
