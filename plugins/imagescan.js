@@ -75,7 +75,7 @@ cmd({
     await reply(
       `🔍 *Image Analysis Results*\n\n` +
       `${scanResponse.data.result}\n\n` +
-      `> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚃𝙾𝙷𝙸𝙳_𝙼𝙳 💜`
+      `> ©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝓜𝓘𝓒𝓚𝓔𝓨-𝓜𝓓`
     );
 
   } catch (error) {
