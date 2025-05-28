@@ -19,21 +19,21 @@ cmd({
         await reply("🔍 Checking for TOHID_MD updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/Tohidkhan6332/TOHID_MD/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/Mickeymozy/MICKEY-MD/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your TOHID_MD bot is already up-to-date!");
+            return reply("✅ Your bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating TOHID_MD Bot...");
+        await reply("🚀 Updating  Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/Tohidkhan6332/TOHID_MD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/Mickeymozy/MICKEY-MD/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
