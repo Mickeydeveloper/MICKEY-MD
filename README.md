@@ -21,7 +21,7 @@
 
 <a href="https://mickey-creads-pair-nbfp.onrender.com/pair" target="_blank"><img alt='PAIRING' src='https://img.shields.io/badge/GET%20CREDS.JSON-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-<a href="[https://session-6ou1.onrender.com/pair]" target="_blank"><img alt='SESSION_ID' src='https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href="https://session-6ou1.onrender.com/pair" target="_blank"><img alt='SESSION_ID' src='https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 ---
 
