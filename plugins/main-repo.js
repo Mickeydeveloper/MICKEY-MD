@@ -73,12 +73,11 @@ async (conn, mek, m, { from, reply }) => {
 > ${config.DESCRIPTION}`;
 
         // Format 5: Modern Blocks
-        const style5 = `▰▰▰▰▰ REPO INFO ▰▰▰▰▰
+        const style5 = ` REPO INFO 
 
   🏷️  *${repoData.name}*
   👨‍💻  ${repoData.owner.login}
   
-  ⭐ ${repoData.stargazers_count}  ⑂ ${repoData.forks_count}
   🔗 ${repoData.html_url}
   
   📜 ${repoData.description || 'No description'}
