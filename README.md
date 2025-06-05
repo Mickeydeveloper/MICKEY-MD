@@ -76,45 +76,7 @@ AUTO_REACT=false
 ## 🛠️ **MAIN DEVELOPER**
  MICKEY24
 
-----------------------
-
-## 📢 **NOTICE**
-
--
-
-----------------------
-## 📝 **HOW TO CLONE AND SET UP THE BOT**
-
-### **Step 1: Clone the Repository**
-To clone the bot repository, use the following command:
-```bash
-git clone https://github.com/Mickeymozy/MICKEY-MD.git
-```
-
-### **Step 2: Navigate to the Project Directory**
-```bash
-cd Lazack-Device
-```
-
-### **Step 3: Install Dependencies**
-Make sure you have [Node.js](https://nodejs.org/) installed. Then, run:
-```bash
-npm install
-```
-
-### **Step 4: Configure Environment Variables**
-Edit the `.env` file with your preferred settings:
-```env
-SESSION_ID=YOUR_SESSION_ID
-OWNER_NAME=YOUR_NAME
-OWNER_NUMBER=YOUR_NUMBER
-```
-
-### **Step 5: Start the Bot**
-Run the bot using:
-```bash
-npm start
-```
+-------------------```
 
 ---
 
@@ -128,34 +90,4 @@ npm start
 | `git pull`            | Update the repository with the latest changes|
 
 ---
-
-## 🛡️ **TROUBLESHOOTING**
-
-- **Issue:** Dependencies not installing.  
-  **Solution:** Ensure Node.js and npm are installed correctly. Run `npm install` again.
-
-- **Issue:** Bot not starting.  
-  **Solution:** Check the `.env` file for missing or incorrect values.
-
-- **Issue:** Features not working.  
-  **Solution:** Ensure you have the latest version of the repository by running `git pull`.
-
----
-
-## 📦 **RECOMMENDED TOOLS**
-
-- **Code Editor:** [Visual Studio Code](https://code.visualstudio.com/)
-- **Version Control:** [Git](https://git-scm.com/)
-- **Hosting:** [Heroku](https://heroku.com/), [Replit](https://replit.com/)
-
----
-
-## 🌟 **CONTRIBUTING**
-
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push them to your fork.
-4. Submit a pull request for review.
-
 For detailed guidelines, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
