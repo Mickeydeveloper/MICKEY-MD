@@ -16,7 +16,7 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for TOHID_MD updates...");
+        await reply("🔍 Checking for Mickey-MD updates...");
 
         // Fetch the latest commit hash from GitHub
         const { data: commitData } = await axios.get("https://api.github.com/repos/Mickeymozy/MICKEY-MD/commits/main");
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "TOHID_MD-main");
+        const sourcePath = path.join(extractPath, "MICKEY-MD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
